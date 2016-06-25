@@ -8,13 +8,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hanbit.user.myappwebview.ImageGridActivity">
-<GridView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:columnWidth="100dp"
-    android:stretchMode="columnWidth"
-    android:gravity="center"
-    android:id="@+id/btGridView">
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:id="@+id/gridView">
 
-</GridView>
+    </GridView>
 </RelativeLayout>
